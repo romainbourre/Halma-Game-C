@@ -116,37 +116,6 @@ void define_back(char colorBack[]) {
  */
 void print_color(char text[], char colorFont[], char colorBack[]) {
     
-    int colorCodeBack = 0;
-    
-    // Définition de la couleur de fond
-    if(!strcmp(colorBack, "black")) {
-        colorCodeBack = 40;
-    }
-    else if(!strcmp(colorBack, "red")) {
-        colorCodeBack = 41;
-    }
-    else if(!strcmp(colorBack, "green")) {
-        colorCodeBack = 42;
-    }
-    else if(!strcmp(colorBack, "yellow")) {
-        colorCodeBack = 43;
-    }
-    else if(!strcmp(colorBack, "blue")) {
-        colorCodeBack = 44;
-    }
-    else if(!strcmp(colorBack, "magenta")) {
-        colorCodeBack = 45;
-    }
-    else if(!strcmp(colorBack, "cyan")) {
-        colorCodeBack = 46;
-    }
-    else if(!strcmp(colorBack, "white")) {
-        colorCodeBack = 47;
-    }
-    else {
-        colorCodeBack = 0;
-    }
-    
     define_font(colorFont);
     define_back(colorBack);
     printf("%s", text);
