@@ -13,7 +13,7 @@
 
 int int_compose(int entier);
 
-void sleep_prog(int nbrSec);
+void sleep_prog(unsigned nbrSec);
 
 void empty_buffer();
 
