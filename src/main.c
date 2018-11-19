@@ -16,7 +16,7 @@
 
 #define COLOR_ACTIVE 0
 
-int main(int argc, const char * argv[]) {
+int main(void) {
     
     int colorActive = COLOR_ACTIVE;
     
