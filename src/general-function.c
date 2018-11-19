@@ -46,7 +46,7 @@ int int_compose(int entier) {
 
  @param nbrSec temps de pause en seconde.
  */
-void sleep_prog(int nbrSec) {
+void sleep_prog(unsigned nbrSec) {
     
     clock_t befTime;
     clock_t aftTime;
